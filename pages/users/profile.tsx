@@ -36,7 +36,7 @@ import { useAccount, useConnect, useSignMessage } from "wagmi";
 import { disconnect } from '@wagmi/core';
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
 
-export default function userProfile() {
+export default function UserProfile() {
   const { connectAsync } = useConnect();
   const { isConnected } = useAccount();
 

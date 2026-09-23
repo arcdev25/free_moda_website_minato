@@ -22,7 +22,7 @@ import { businessTutorial } from "../../components/Tutorials/Tutorials";
 import router from "next/router";
 import MainLayout from "../../components/Layouts/MainLayout";
 
-export default function dashboard() {
+export default function Dashboard() {
   const { userData } = useUserData();
   const { setSteps, setIsOpen } = useTour();
   const [loading, setLoading] = useState(false);

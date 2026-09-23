@@ -238,7 +238,7 @@ export default function Login() {
                 </button>
               </p>
               <p className="mt-5 text-center">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <button className="text-fbyellow" onClick={() => setWhichAuth('')}>
                   Get started.
                 </button>

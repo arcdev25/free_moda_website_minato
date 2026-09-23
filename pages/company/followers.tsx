@@ -21,7 +21,7 @@ interface IUsers {
   participatedGiveaways: string[];
 }
 
-export default function followersPage() {
+export default function FollowersPage() {
   const { userData } = useUserData();
   const [loading, setLoading] = useState(false);
   const [userDatas, setUserDatas] = useState<any[]>([]);

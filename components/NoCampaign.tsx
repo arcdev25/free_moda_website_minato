@@ -11,7 +11,7 @@ const NoCampaign: FC = () => {
   return (
     <div className="md:h-[40vh] lg:h-[70vh] flex flex-col items-center justify-center">
       <div className="mb-[48px] text-2xl text-center">
-        You don't have any giveaways at the moment
+        You don&apos;t have any giveaways at the moment
       </div>
 
       <button

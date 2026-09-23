@@ -22,7 +22,7 @@ import MainLayout from "../components/Layouts/MainLayout";
 import { CheckBadgeIcon, FireIcon, HandThumbUpIcon } from "@heroicons/react/24/solid";
 
 
-export default function dashboard() {
+export default function Dashboard() {
   const { user } = useAuth();
   const { userData } = useUserData();
   const { setSteps, setIsOpen } = useTour();

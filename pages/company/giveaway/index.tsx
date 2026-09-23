@@ -22,7 +22,7 @@ import NavbarMobile from "../../../components/NavbarMobile";
 import MainLayout from "../../../components/Layouts/MainLayout";
 import { PlusCircleIcon } from "@heroicons/react/24/solid";
 
-export default function index() {
+export default function Index() {
   const { userData } = useUserData();
   const { user, setFormValues } = useAuth();
   const [loading, setLoading] = useState(false);

@@ -13,7 +13,7 @@ import Image from 'next/image';
 import WinnersCard from '../../components/WinnersCard';
 
 
-export default function favorites() {
+export default function Favorites() {
   const { userData } = useUserData();
   const [loading, setLoading] = useState(false);
   const [giveaways, setGiveaways] = useState<DocumentData[]>([]);

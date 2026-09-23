@@ -4,7 +4,7 @@ import Image from 'next/image'
 import CardGiveaway from '../../components/CardGiveaway'
 import { Tab, TabList } from 'react-tabs'
 
-export default function businessProfile() {
+export default function BusinessProfile() {
     const router = useRouter()
     const id = router.query.id as string
     return (

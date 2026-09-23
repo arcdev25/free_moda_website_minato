@@ -7,7 +7,7 @@ import { useUserData } from "../../../context/userDataHook";
 import { db } from "../../../firebase";
 import New from "../../../components/new";
 
-export default function add() {
+export default function Add() {
   const [loading, setLoading] = useState(false);
   const { userData } = useUserData();
   const router = useRouter();

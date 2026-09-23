@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import PreviewData from "../../../../components/PreviewData";
 import { useAuth } from "../../../../context/authcontext";
 
-export default function index() {
+export default function Index() {
     const {data } = useAuth();
 
     // console.log(data) when it changes

@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import BizToggle from './BizToggle'
 import AuthModal from '../../AuthPanel/AuthModal'
 import { useAuth } from '../../../context/authcontext';
+import Link from "next/link";
 
 function HomeBizHero() {
   const [open, setOpen] = useState<boolean>(false);
@@ -26,9 +27,9 @@ function HomeBizHero() {
                     <button className="buttonSecondary">Get started →</button>
                 </div> */}
           <div className='flex justify-between space-x-4 mt-2'>
-            <a className="items-center" href="/">
+            <Link className="items-center" href="/">
               <button className="buttonPrimary">Enter&nbsp;giveaways!</button>
-            </a>
+            </Link>
             {!user.email && <button className="buttonSecondary" onClick={handleAuth}>Get&nbsp;started&nbsp;→</button>}
           </div>
         </div>

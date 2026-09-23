@@ -23,7 +23,7 @@ import ImageCropper from "../../../components/ImageCopper";
 import MainLayout from "../../../components/Layouts/MainLayout";
 
 // Profile Page
-export default function profilePage() {
+export default function ProfilePage() {
   const { userData, updateUserData } = useUserData();
   const [loading, setLoading] = useState(false);
   const [editMode, setEditMode] = useState(false);

@@ -5,7 +5,7 @@ import MainLayout from '../../../components/Layouts/MainLayout';
 import Loader from '../../../components/loader';
 import PreviewDataOriginal from '../../../components/PreviewDataOriginal';
 
-export default function edit() {
+export default function Edit() {
     const {data } = useAuth();
   return (
     <MainLayout>

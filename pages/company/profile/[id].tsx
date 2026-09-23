@@ -22,7 +22,7 @@ import toast from "react-hot-toast";
 import MainLayout from "../../../components/Layouts/MainLayout";
 
 // VIew
-export default function view() {
+export default function View() {
   const id = router.query.id;
   const [giveaways, setGiveaways] = useState<DocumentData[]>([]);
   const [filteredData, setRefilteredData] = useState<DocumentData[]>([]);
