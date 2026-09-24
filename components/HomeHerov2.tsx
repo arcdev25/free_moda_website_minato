@@ -20,7 +20,7 @@ function HomeHerov2() {
                   <Image className='motion-safe:animate-pulse' src="/assets/images/fb-brand-v1-white.png" alt="Free Bling Logo" width={100} height={37} />
                </span>
                <p>Experience <span className="font-Ubuntu-Bold text-teal-300">FreeBling.app</span>, a web3 marketing and rewards platform. Access exclusive giveaways, airdrops, and reward missions that will leave you feeling like a crypto champion. Join today and discover the future of web3 rewards!</p>
-               <ConnectWalletButton userId="userId" />
+               <ConnectWalletButton userId="intel" />
             </div>
             <div className="w-full md:w-2/5 flex flex-row">
                <Image src="/assets/images/static-create-giveaways_V2.png" alt="Giveaways" width={442} height={225} className="mx-auto" />
