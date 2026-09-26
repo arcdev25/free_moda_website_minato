@@ -16,6 +16,7 @@ const { publicClient, webSocketPublicClient } = configureChains(
   [publicProvider()]
 );
 
+
 const config = createConfig({
   autoConnect: true,
   publicClient,
